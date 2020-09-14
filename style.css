@@ -1,0 +1,358 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.logo{
+   margin: 20px 0 0 25px; 
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #504BA7;
+}
+.section-one .vector{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 500px;
+   max-width: 100%;
+}
+.section-one .info{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+text-align: center; 
+color: #292929;
+}
+span{
+    font-style: bold;
+}
+
+.one button{
+padding: 20px 30px;
+width: 194.1px;
+height: 60px;
+margin: 0 20px 0 0;
+border: 1.9px solid #504BA7;
+border-radius: 6px;
+}
+.button{
+    display: inline;
+padding: 10px 400px;
+}
+.button .one{
+        /*text*/
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+     /*button*/
+     text-align: center; 
+
+}
+.two button {
+padding: 20px 30px;
+position: absolute;
+width: 279px;
+height: 60px;
+background: #4C48A6;
+border-radius: 6px;
+}
+
+.button .two{
+    /*text*/
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-align: center; 
+    /*button*/
+
+}
+button{
+    line-height: 13px;
+}
+.section-one .play{
+margin-right: 30px;
+}
+.section-one .arrow{
+    margin-right: 30px;  
+}
+.text .max{
+    font-family: Rock Salt;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 38px;
+color: #999999;
+text-align: center; 
+}
+.text .min{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: #808080;
+text-align: center; 
+}
+
+/*Media Screen */
+@media only screen and (max-width: 770px){
+    body{
+        margin: 0;
+        padding: 40px 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .col{
+        flex-direction: column;
+    }
+    
+    .logo{
+       margin: 20px 0 0 25px; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #504BA7;
+    }
+    .section-one .vector{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 350px;
+       max-width: 100%;
+    }
+    .section-one .info{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 450;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 150% */
+    text-align: center; 
+    color: #292929;
+    }
+    span{
+        font-style: bold;
+    }
+    
+    .one button{
+    padding: 10px 15px;
+    width: 154.1px;
+    height: 45px;
+    margin: 0 10px 0 0;
+    border: 1.9px solid #504BA7;
+    border-radius: 6px;
+    }
+    .button{
+        display: block;
+    padding: 10px 170px;
+    }
+    .button .one{
+            /*text*/
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 22px;
+         /*button*/
+         text-align: center; 
+    
+    }
+    .two button {
+    padding: 10px 15px;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    background: #4C48A6;
+    border-radius: 6px;
+    }
+    
+    .button .two{
+        /*text*/
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: center; 
+        /*button*/
+    
+    }
+    button{
+        line-height: 13px;
+    }
+    .section-one .play{
+    margin-right: 30px;
+    }
+    .section-one .arrow{
+        margin-right: 30px;  
+    }
+    .text .max{
+        font-family: Rock Salt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+    text-align: center; 
+    }
+    .text .min{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808080;
+    text-align: center; 
+    }
+    
+}
+
+@media only screen and (max-width: 400px){
+    body{
+        margin: 0;
+        padding: 80px 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        -webkit-tap-highlight-color: transparent;
+    }
+    
+    .col{
+        flex-direction: column;
+    }
+    
+    .logo{
+       margin: 20px 0 0 25px; 
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    
+    color: #504BA7;
+    }
+    .section-one .vector{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 200px;
+       max-width: 100%;
+    }
+    .section-one .info{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 12px;
+    /* or 150% */
+    text-align: center; 
+    color: #292929;
+    }
+    span{
+        font-style: bold;
+    }
+    
+    .one button{
+    padding: 10px 15px;
+    width: 154.1px;
+    height: 45px;
+    margin: 0 10px 0 0;
+    border: 1.9px solid #504BA7;
+    border-radius: 6px;
+    }
+    .button{
+        display: block;
+    padding: 10px 25px;
+    }
+    .button .one{
+            /*text*/
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 10px;
+        line-height: 13px;
+         /*button*/
+         text-align: center; 
+    
+    }
+    .two button {
+    padding: 10px 15px;
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    background: #4C48A6;
+    border-radius: 6px;
+    }
+    
+    .button .two{
+        /*text*/
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 22px;
+        color: #FFFFFF;
+        text-align: center; 
+        /*button*/
+    
+    }
+    button{
+        line-height: 13px;
+    }
+    .section-one .play{
+    margin-right: 30px;
+    }
+    .section-one .arrow{
+        margin-right: 30px;  
+    }
+    .text .max{
+        font-family: Rock Salt;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    color: #999999;
+    text-align: center; 
+    }
+    .text .min{
+        font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #808080;
+    text-align: center; 
+    }
+    
+}
