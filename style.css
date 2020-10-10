@@ -54,7 +54,7 @@ border-radius: 6px;
 }
 .button{
     display: inline;
-padding: 10px 400px;
+/* padding: 10px 400px; */
 }
 .button .one{
         /*text*/
@@ -68,12 +68,13 @@ padding: 10px 400px;
 
 }
 .two button {
-padding: 20px 30px;
-position: absolute;
+padding: 0px 30px;
+/* position: absolute; */
 width: 279px;
 height: 60px;
 background: #4C48A6;
 border-radius: 6px;
+color: white;
 }
 
 .button .two{
@@ -187,12 +188,14 @@ text-align: center;
     
     }
     .two button {
-    padding: 10px 15px;
-    position: absolute;
+    padding: 3px 15px;
+    /* position: absolute; */
     width: 200px;
     height: 45px;
     background: #4C48A6;
     border-radius: 6px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     }
     
     .button .two{
@@ -204,7 +207,8 @@ text-align: center;
         line-height: 22px;
         color: #FFFFFF;
         text-align: center; 
-        /*button*/
+        /*button
+        width: 150px;*/
     
     }
     button{
@@ -224,6 +228,7 @@ text-align: center;
     line-height: 18px;
     color: #999999;
     text-align: center; 
+    margin-top: 0px;
     }
     .text .min{
         font-family: Montserrat;
